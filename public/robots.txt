@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.sqlnoir.com/sitemap.xml
+
+# Optimize crawling
+Crawl-delay: 1
+
+# Block unnecessary paths
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*utm_*
